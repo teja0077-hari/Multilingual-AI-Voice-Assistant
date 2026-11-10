@@ -97,6 +97,11 @@ streamlit run app.py
 ## 🎯 Project Objective
 
 To develop a multilingual voice-based AI assistant that makes human-computer interaction easier through speech recognition, intelligent response generation, and speech synthesis.
+## 🎥 Project Demo Video
+
+[Watch the Multilingual AI Voice Assistant Demo](https://drive.google.com/file/d/1Gl-vO88MoADVucGWntNSx4HgxlTrJ5C5/view?usp=sharing)
+
+
 
 ## 👨‍💻 Author
 
