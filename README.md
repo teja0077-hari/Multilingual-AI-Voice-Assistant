@@ -9,7 +9,7 @@ An AI-powered voice assistant that allows users to communicate naturally in **Te
 - 📝 Speech-to-Text using Gnani AI Prisma
 - 🧠 Intelligent responses using Groq LLM
 - 🔊 Text-to-Speech using Gnani AI Timbre
-- 💬 Conversation history and memory
+- 💬 Conversation history
 - ▶️ AI-generated audio playback
 - 📥 Audio download
 - 🖥️ Interactive Streamlit interface
@@ -27,9 +27,9 @@ An AI-powered voice assistant that allows users to communicate naturally in **Te
 
 1. User selects a language.
 2. User records audio through the microphone.
-3. Gnani AI converts speech into text.
-4. Groq LLM generates a response.
-5. Gnani AI converts the response into speech.
+3. Gnani AI Prisma converts speech into text.
+4. Groq LLM generates an intelligent response.
+5. Gnani AI Timbre converts the response into speech.
 6. The application displays the answer and plays the generated audio.
 
 ## 📁 Project Structure
@@ -43,9 +43,12 @@ Multilingual-AI-Voice-Assistant/
 ├── llm.py
 ├── tts.py
 ├── requirements.txt
-├── .env
+├── test_llm.py
+├── test_tts.py
 ├── .gitignore
-└── README.md
+├── README.md
+├── LICENSE
+└── .env (create locally; do not upload)
 ```
 
 ## 💻 Installation
@@ -53,7 +56,7 @@ Multilingual-AI-Voice-Assistant/
 ### 1. Clone the repository
 
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
+git clone https://github.com/teja0077-hari/Multilingual-AI-Voice-Assistant.git
 ```
 
 ### 2. Open the project folder
@@ -70,14 +73,14 @@ pip install -r requirements.txt
 
 ### 4. Configure API keys
 
-Create a `.env` file in the project folder:
+Create a `.env` file in the project folder and add your API keys:
 
 ```env
 GNANI_API_KEY_ID=your_gnani_api_key
 GROQ_API_KEY=your_groq_api_key
 ```
 
-Never share or upload your API keys.
+**Important:** Never share or upload your API keys.
 
 ### 5. Run the application
 
@@ -99,9 +102,8 @@ To develop a multilingual voice-based AI assistant that makes human-computer int
 
 **Hariteja Kodhaari**
 
-GitHub: https://github.com/teja0077-hari
-
-LinkedIn: https://www.linkedin.com/in/hariteja-kodhaari
+- GitHub: https://github.com/teja0077-hari
+- LinkedIn: https://www.linkedin.com/in/hariteja-kodhaari
 
 ---
 
